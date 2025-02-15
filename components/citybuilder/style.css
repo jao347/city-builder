@@ -1,0 +1,144 @@
+.city-builder-container {
+    @apply p-4 max-w-full mx-auto;
+  }
+  
+  .weather-section {
+    @apply p-4 mb-4 bg-white shadow rounded;
+  }
+  
+  .weather-title {
+    @apply text-lg font-semibold mb-2;
+  }
+  
+  .weather-controls {
+    @apply flex items-center gap-2;
+  }
+  
+  .weather-select {
+    @apply p-1 border rounded;
+  }
+  
+  .weather-button {
+    @apply bg-blue-500 text-white px-3 py-1 rounded;
+  }
+  
+  .weather-display {
+    @apply flex items-center gap-2 mt-2;
+  }
+  
+  .weather-icon {
+    @apply text-4xl;
+  }
+  
+  .weather-temp {
+    @apply text-xl;
+  }
+  
+  .houses-list {
+    @apply p-4 bg-white shadow rounded;
+  }
+  
+  .houses-list-title {
+    @apply text-lg font-semibold mb-2;
+  }
+  
+  .house-card {
+    @apply p-2 mb-2 border rounded;
+  }
+  
+  .house-card-header {
+    @apply flex justify-between items-center mb-2;
+  }
+  
+  .house-card-name {
+    @apply font-medium;
+  }
+  
+  .house-delete-button {
+    @apply text-red-500 text-xl;
+  }
+  
+  .house-control {
+    @apply flex gap-4;
+  }
+  
+  .house-control-left {
+    @apply flex flex-col gap-1 flex-1;
+  }
+  
+  .house-control-right {
+    @apply flex flex-col gap-1 flex-1;
+  }
+  
+  .house-input-row {
+    @apply flex items-center gap-2;
+  }
+  
+  .house-label {
+    @apply text-sm font-medium;
+  }
+  
+  .house-input {
+    @apply p-1 border rounded w-16;
+  }
+  
+  .house-slider-row {
+    @apply flex items-center gap-2;
+  }
+  
+  .house-slider {
+    @apply flex-grow;
+  }
+  
+  .house-save-row {
+    @apply flex items-center gap-2 justify-end;
+  }
+  
+  .house-save-button {
+    @apply bg-blue-500 text-white py-1 px-2 rounded whitespace-nowrap;
+  }
+  
+  .build-button {
+    @apply w-full mt-2 bg-green-500 text-white py-1 rounded flex items-center justify-center gap-2;
+  }
+  
+  .build-loader {
+    @apply w-8 h-8;
+  }
+  
+  .house-svg-preview-container {
+    @apply md:col-span-2 p-4 bg-white shadow rounded relative;
+  }
+  
+  .house-svg-container {
+    @apply flex flex-wrap justify-center items-end gap-4 p-4 relative z-10;
+  }
+  
+  .house-svg-card {
+    @apply relative text-center;
+  }
+  
+  .house-svg-wrapper {
+    @apply relative;
+  }
+  
+  .house-svg {
+    /* Add any additional styling if needed */
+  }
+  
+  .house-svg-overlay {
+    @apply absolute bottom-0 left-0 right-0 flex justify-center pointer-events-none;
+  }
+  
+  .house-saving-overlay {
+    @apply w-16 h-16;
+  }
+  
+  .house-name {
+    @apply mt-1 font-semibold;
+  }
+  
+  .weather-overlay {
+    @apply absolute top-2 right-2 flex items-center gap-2 pointer-events-none opacity-90;
+  }
+  
