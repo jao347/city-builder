@@ -1,4 +1,5 @@
 import React from 'react';
+import { WeatherData } from './utils';
 
 const WeatherSection: React.FC<{
   location: string;
