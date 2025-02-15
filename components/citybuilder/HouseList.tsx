@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { House } from './utils';
 import HouseEditCard from './HouseEditCard';
-import HouseIcon from '@mui/icons-material/House'; // You can replace this with a custom icon if desired
+import HouseIcon from '@mui/icons-material/House';
 
 interface HouseListProps {
   houses: House[];
@@ -57,7 +57,7 @@ const HouseList: React.FC<HouseListProps> = ({ houses, edits, saving, updateEdit
               <label htmlFor="new-house-color" className="block text-sm font-medium mb-1">
                 Color:
               </label>
-              <select id="new-house-color" value={newHouseColor} onChange={(e) => setNewHouseColor(e.target.value)} className="w-full p-2 border rounded">
+              <select id="new-house-color" value={newHouseColor} onChange={(e) => setNewHouseColor(e.target.value)} className="w-full p-2 border rounded ">
                 <option value="blue">Blue</option>
                 <option value="orange">Orange</option>
                 <option value="red">Red</option>
