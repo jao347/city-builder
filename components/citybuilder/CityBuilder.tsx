@@ -96,11 +96,12 @@ const CityBuilder: React.FC = () => {
   return (
     <div className="city-builder-container">
       <style>{buildAnimation}</style>
-      <WeatherSection location={location} setLocation={setLocation} weather={weather} refetch={refetch} />
+
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <HouseList houses={houses} edits={edits} saving={saving} updateEdit={updateEdit} saveHouse={saveHouse} removeHouse={removeHouse} addHouse={addHouse} buildingNew={buildingNew} />
         <HouseSVGPreview houses={houses} saving={saving} roofHeight={roofHeight} floorHeight={floorHeight} doorHeight={doorHeight} containerHeight={containerHeight} weather={weather} />
       </div>
+      <WeatherSection location={location} setLocation={setLocation} weather={weather} refetch={refetch} />
     </div>
   );
 };
